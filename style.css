@@ -30,14 +30,31 @@ h1 {
   box-shadow: 0 0 5px black;
 }
 
+.resolved {
+  background: green !important;
+}
+
 #alarm-info {
-  margin-top: 15px;
+  margin: 20px auto;
   padding: 10px;
-  min-height: 50px;
-  background: white;
   width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  background: white;
   border: 1px solid #ccc;
   box-shadow: 0 0 5px #aaa;
+  text-align: left;
 }
+
+.unit-btn {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.unit-btn.fire { background: #e74c3c; }
+.unit-btn.police { background: #2980b9; }
+.unit-btn.ambulance { background: #27ae60; }
+.unit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
