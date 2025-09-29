@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+#map {
+  margin: 20px auto;
+  width: 600px;
+  height: 400px;
+  background: #ddd;
+  border: 2px solid #333;
+  position: relative;
+}
+
+.alarm {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 0 5px black;
+}
+
+#alarm-info {
+  margin-top: 15px;
+  padding: 10px;
+  min-height: 50px;
+  background: white;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #aaa;
+}
