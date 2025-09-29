@@ -6,38 +6,18 @@ body {
   padding: 0;
 }
 
-h1 {
-  margin: 10px 0;
-}
-
 #map {
   margin: 20px auto;
-  width: 600px;
-  height: 400px;
-  background: #ddd;
+  width: 90%;
+  height: 500px;
   border: 2px solid #333;
-  position: relative;
-}
-
-.alarm {
-  width: 20px;
-  height: 20px;
-  background: red;
-  border-radius: 50%;
-  position: absolute;
-  cursor: pointer;
-  border: 2px solid white;
-  box-shadow: 0 0 5px black;
-}
-
-.resolved {
-  background: green !important;
 }
 
 #alarm-info {
   margin: 20px auto;
   padding: 10px;
-  width: 600px;
+  width: 90%;
+  max-width: 800px;
   background: white;
   border: 1px solid #ccc;
   box-shadow: 0 0 5px #aaa;
