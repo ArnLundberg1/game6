@@ -38,3 +38,19 @@ body {
 .unit-btn.police { background: #2980b9; }
 .unit-btn.ambulance { background: #27ae60; }
 .unit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.hidden {
+  display: none;
+}
+
+#game-over {
+  margin: 20px auto;
+  padding: 15px;
+  width: 400px;
+  background: #2ecc71;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #333;
+}
