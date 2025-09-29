@@ -1,4 +1,3 @@
-// Exempel-larm i Sverige
 const ALARMS_CONFIG = [
   {
     text: "Det brinner i en lägenhet i Stockholm!",
@@ -20,12 +19,5 @@ const ALARMS_CONFIG = [
     lat: 55.6050,
     lng: 13.0038,
     required: ["ambulance"]
-  },
-  {
-    text: "Ett inbrott har rapporterats i Uppsala.",
-    voice: "Ett inbrott har rapporterats i Uppsala.",
-    lat: 59.8586,
-    lng: 17.6389,
-    required: ["police"]
   }
 ];
